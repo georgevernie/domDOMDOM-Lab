@@ -1,0 +1,26 @@
+button{
+    display:block;
+    margin:auto;
+    background:rgb(0, 192, 135);
+    color:black;
+    padding:3rem;
+}
+
+/*The parent element for blackSquares*/
+section{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/*The class used for base square styling*/
+.blackSquare{
+    background:black;
+    width:8rem;
+    height:8rem;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
